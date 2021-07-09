@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -8,10 +5,11 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   inv                                   ## Return a matrix that is the inverse of 'x'
+  x$setinv(k)                                 ##setting inverse to the dataset
+  k                                           ##returning a matrix that is the inverse of 'x'
 }
